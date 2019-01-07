@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="authentication" method="upgrade">
+	<name>Authentication - Redirect after login without activation</name>
+	<author>Jonathan Magoga</author>
+	<authorEmail>j@uxd.one</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>Copyright (C) 2012 - 2018 j@uxd.one</copyright>
+	<license>GNU General Public License version 3, or later</license>
+	<creationDate>Jan 2019</creationDate>
+	<version>1.0.0</version>
+	<description>Redirect user if a login is attempted by an non-activated user</description>
+	<files>
+		<filename plugin="redirectnoactivation">redirectnoactivation.php</filename>
+	</files>	
+</extension>
